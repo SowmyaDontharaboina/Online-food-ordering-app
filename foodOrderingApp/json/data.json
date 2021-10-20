@@ -1,0 +1,140 @@
+{
+    "foodItems": [
+      {
+          "id": "1",
+          "name": "Food 1",
+          "url": "../images/item1.jpeg",
+          "description": "",
+          "price": "1299",
+          "rating":"4",
+          "discount":"20"
+      },
+      {
+        "id": "2",
+        "name": "Food 2",
+        "url": "../images/item2.jpeg",
+        "description": "",
+        "price": "299",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      },
+      {
+        "id": "3",
+        "name": "Food 3",
+        "url": "../images/item3.jpeg",
+        "description": "",
+        "price": "99",
+        "rating":"4",
+        "discount":"20"
+      }
+    ]
+  }
+  

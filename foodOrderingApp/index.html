@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="food-ordering-app">
+        <h2>Order Food Online</h2>
+        <div class="map-container">
+          <i class="fa fa-map-marker"></i>
+        <div id="mapholder"></div>
+        </div>
+        <span class="cart">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="cartcount">0</span>
+         </span>
+        <div class="search container">
+          <!-- <label for="search-input">Search the Restaurant near by..</label> -->
+          <input id="search-input" placeholder="Search the restaurant, cuisine or a dish near by.." type="text" />
+          <i class="fa fa-search search-icon"></i>
+          <div class="search-results-placeholder">
+
+          </div>
+        </div>
+        <div class="filter-section container">
+          <button class="filter-btn"><i class="fa fa-filter"></i>Filters</button>
+        </div>
+
+        <div class="resta-container grid-container container"></div>
+        <div class="menu-container container">
+            <div class="banner-placeholder"></div>
+            <div class="menu-placeholder"></div>
+        </div>
+        <div class="cart-banner"></div>
+        <div class="cart-container ">
+
+        </div>
+    </div>
+
+    <section class="modal-container modalWrapper" role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" style="display: none">
+      <div class="backdrop backdrop_open"></div>
+      <div class="modal__container">
+        <button class="close-btn"><i class="fa fa-close close-icon"></i></button>
+        <h2 id="modal-heading-01" class="modal__title">Filters</h2>
+        <section class="content" id="modal-content-id-1">
+            <article class="article-content">
+              <section class="section-one">
+                <section role="tablist" class="tablist">
+                  <section class="tablist-box">
+                    <div tabindex="0" role="tab" class="tab selected">
+                      <p class="tab-items">Sort by</p>
+                      <p class="tab-items-selected" data-parent-id="Sort by"></p>
+                    </div>
+                    <div tabindex="0" role="tab" class="tab">
+                      <p class="tab-items">Cuisines</p>
+                    </div>
+                    <div tabindex="0" role="tab" class="tab">
+                      <p class="tab-items">Rating</p>
+                    </div>
+                    <div tabindex="0" role="tab" class="tab">
+                      <p class="tab-items">Cost per person</p>
+                    </div>
+                    <div tabindex="0" role="tab" class="tab">
+                      <p class="tab-items">More filters</p>
+                    </div>
+                  </section>
+                </section>
+              </section>
+              <section class="section-two">
+                
+              </section>
+            </article>
+            <section class="footer">
+              <div class="section action-btns">
+                <button class="btns" role="button" tabindex="0" data-action="clear" aria-disabled="false">
+                  <span tabindex="-1" class=""><span class="">Clear all</span>
+                  </span>
+                </button>
+                <button class="btns" role="button" tabindex="0" data-action="apply" aria-disabled="false">
+                  <span tabindex="-1" class=""><span class="">Apply</span>
+                  </span>
+                </button>
+              </div>
+            </section>
+        </section>
+      </div>
+    </section>
+      <script src="js/foodOrderingApp.js"></script>
+  </body>
+</html>
