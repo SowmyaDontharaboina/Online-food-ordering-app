@@ -1,5 +1,5 @@
 # Online Food Ordering App Using javascript
-Food Ordering app using vanilla javascript
+Food Ordering app built using vanilla javascript.
 
 Install live-server and run the project
 
