@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Order Food</title>
+    <title>Food Order Online</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -19,7 +19,6 @@
           <span class="cartcount">0</span>
          </span>
         <div class="search container">
-          <!-- <label for="search-input">Search the Restaurant near by..</label> -->
           <input id="search-input" placeholder="Search the restaurant, cuisine or a dish near by.." type="text" />
           <i class="fa fa-search search-icon"></i>
           <div class="search-results-placeholder">
@@ -27,7 +26,7 @@
           </div>
         </div>
         <div class="filter-section container">
-          <button class="filter-btn"><i class="fa fa-filter"></i>Filters</button>
+          <span class="filter-btn"><i class="fa fa-filter"></i>Filters</span>
         </div>
 
         <div class="resta-container grid-container container"></div>
@@ -41,7 +40,7 @@
         </div>
     </div>
 
-    <section class="modal-container modalWrapper" role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" style="display: none">
+    <section class="modal-container modalWrapper" role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" style="display: none;">
       <div class="backdrop backdrop_open"></div>
       <div class="modal__container">
         <button class="close-btn"><i class="fa fa-close close-icon"></i></button>
@@ -89,6 +88,6 @@
         </section>
       </div>
     </section>
-      <script src="js/foodOrderingApp.js"></script>
+    <script src="js/foodOrderingApp.js"></script>
   </body>
 </html>

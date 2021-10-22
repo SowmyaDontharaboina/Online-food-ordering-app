@@ -196,7 +196,15 @@ section {
 }
 .grid-item .inline{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.grid-item .heading.col1,.grid-item .col2 {
+    display: flex;
+    margin-top: 10px;
+}
+.grid-item .col2 .cost {
+    margin-left: auto;
 }
 .rating {
     margin-left: auto;
@@ -281,13 +289,33 @@ h3{
     left: 0;
 }
 .cart-banner .btn{
-    margin-right: 50px;
+    margin-right: 150px;
 }
 .cart-banner .right{
     float: right;
 }
 .error {
     color: #cb1717;
+}
+/* .cart-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.cart-container .cart-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37%;
+    margin-top: 15px;
+}
+.cart-container .cart-view > .details{
+    display: flex;
+    flex-direction: column;
+}
+.cart-container .details .price{
+    font-weight: 500;
+    color: #1885d5;
 }
 .search,.menu-search {
     margin-top: 10px;
@@ -322,6 +350,7 @@ h3{
 .search input{
     border: 0;
     background: none;
+    font-size: 0.975rem;
 }
 .menu-search {
     margin-bottom: 10px;
@@ -711,10 +740,30 @@ input + .search-icon {
 .food-ordering-app {
     margin: 60px;
 }
-.heading {
+/* .heading {
     display: flex;
     flex-direction: column;
-}
+} */
 .heading strong {
     margin-bottom: 6px;
 }
+.filter-custom-badges {
+    display: flex;
+}
+.filter-custom-badges .badge{
+    background: #898d0c;
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.filter-custom-badges .fill {
+
+}
+.filter-btn{
+    padding: 7px 15px;
+    border: 1px solid #817f7f;
+    border-radius: 7px;
+    color: #817f7f;
+}
+
