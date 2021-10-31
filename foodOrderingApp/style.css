@@ -72,55 +72,8 @@ body {
 section {
     text-align: center;
 }
-.game--container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 306px;
-    margin: 50px auto;
-}
-.cell {
-    font-family: "Permanent Marker", cursive;
-    font-family: "Gill Sans", sans-serif;
-    width: 100px;
-    height: 100px;
-    box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
-    cursor: pointer;
-    line-height: 100px;
-    font-size: 60px;
-}
 
-.comment-box {
-    display: flex;
-    flex-direction: column;
-}
-.comment-box label {
-    display: flex;
-}
-.reply-btn {
-    display: flex;
-    float: right;
-    margin-left: 50%;
-}
-.list {
-    display: flex;
-    align-items: center;
-}
-.list p {
-    padding-left: 10px;
-}
-.comment-widget-container {
-    margin: 30px;
-    border: 1px solid #c7c5c5;
-    padding: 40px;
-}
-.comment-widget-container .btn,.comment-widget-container .reply-btn {
-    padding: 6px 28px;
-    background: #0c7a0c;
-    color: #fff;
-    border: 0;
-    cursor: pointer;
-}
+
 .btn {
     padding: 6px 28px;
     background: #0c7a0c;
@@ -137,29 +90,6 @@ section {
 }
 .list + .reply-btn {
     margin-top: -28px;
-}
-.todo-app-container{
-    padding: 40px;
-}
-.todo-app-container input {
-    height: 22px;
-    width: 500px;
-}
-.todo-app-container .btn {
-    padding: 6px 28px;
-    background: #0c7a0c;
-    color: #fff;
-    border: 0;
-    cursor: pointer;
-}
-#todo-container {
-    display: flex;
-}
-.todo-app-container li .btn {
-    margin-left: 40px;
-}
-.todo-app-container li{
-    padding-bottom: 10px;
 }
 .in-progress,.completed ,.todo-list{
     border: 1px solid #a3a0a0;
